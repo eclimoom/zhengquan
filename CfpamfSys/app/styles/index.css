@@ -1,0 +1,16 @@
+/* =========nav and tools begin */
+.navbar-inner .nav-tools > li > a{ padding:12px 5px 0; font-size: 12px;height: 28px;}
+.toolsbs .sb,.cfpSetting,.navbar .num{background:url("img/h_bedf.png");}
+.toolsbs .sb{display: inline-block;background-position: -27px -15px;border: 0;font-size: 0;padding: 34px 0 0;width: 1px;}
+.cfpSetting{display: inline-block;background-position: 0 2px;width: 20px;height: 20px;opacity: 0.8;}
+a:hover .cfpSetting{opacity: 1;}
+.navbar .nav > li > a:hover{background-color: #4c4c4c;}
+.navbar .num{ display: inline-block; height: 20px; width:21px;color: #999; background-position: -26px -274px; text-align: center;}
+.navbar .notify .num{background-position: 0px -274px; color: #fff;}
+/* =========nav and tools end */
+
+
+/* ==========container  begin */
+.container{margin-top: 48px;}
+.periodList td {padding:2px 8px}
+/* ==========container  end */

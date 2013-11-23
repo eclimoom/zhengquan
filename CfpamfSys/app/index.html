@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+</head>
+<body>
+    <!--Navbar  begin==================================-->
+
+    <div class="header">
+        <cmp-top-nav />
+    </div>
+
+
+    <!--Navbar  end==================================-->
+
+    <!--container begin-->
+    <div class="container">
+        <button class="btn btn-large btn-primary">创建证券期数</button>
+        <h2>资产证券期数列表</h2>
+        <table class="table table-bordered table-striped periodList">
+            <tr>
+                <th>期数名称</th><th>到期时间</th><th>计划总金额</th><th>实际金额</th><th>状态</th><th>操作</th>
+            </tr>
+            <tr>
+                <td>第一期</td><td>2013-12-20</td><td>2亿</td><td>2.2亿</td><td>完成</td>
+                <td><a class="btn btn-small btn-success" data-original-title="查看" href="#"><i class="icon-zoom-in"></i></a>
+                    <a class="btn btn-small btn-success" data-original-title="编辑" href="#"><i class="icon-edit"></i></a>
+                    <a class="btn btn-small btn-success" data-original-title="导入" href="#"><i class="icon-upload"></i></a>
+                    <a class="btn btn-small btn-danger" data-original-title="删除" href="#"><i class="icon-trash"></i></a></td>
+            </tr>
+            <tr>
+                <td>第一期</td><td>2013-12-20</td><td>2亿</td><td>2.2亿</td><td>完成</td>
+                <td><a class="btn btn-small btn-success" data-original-title="查看" href="#"><i class="icon-zoom-in"></i></a>
+                    <a class="btn btn-small btn-success" data-original-title="编辑" href="#"><i class="icon-edit"></i></a>
+                    <a class="btn btn-small btn-success" data-original-title="导出" href="#"><i class="icon-download"></i></a>
+                    <a class="btn btn-small btn-danger" data-original-title="删除" href="#"><i class="icon-trash"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    <!--container end-->
+
+    <script src="scripts/vendor/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
